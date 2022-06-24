@@ -1,0 +1,116 @@
+.container
+{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.anim
+{
+  animation-name: show;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  height:50px;
+  margin: 6vw 6vw;
+  width:50px;
+  border-radius:50%;
+  background:#ffc0cba1;
+}
+@keyframes show
+{
+  from
+  {
+    box-shadow: pink 0px 0px 18px 2px;
+  }
+  to
+  {
+    box-shadow: #ffb6c147 0px 0px 0px 25px;
+  }
+}
+.anim1
+{
+  animation-name: show1;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  height:50px;
+  margin: 6vw 6vw;
+  width:50px;
+  border-radius:50%;
+  background:#8a2be2a6;
+}
+@keyframes show1
+{
+  from
+  {
+    box-shadow:blueviolet 0px 0px 18px 2px;
+  }
+  to
+  {
+    box-shadow: #8a2be247 0px 0px 0px 25px;
+  }
+}
+.anim2
+{
+  animation-name: show2;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  height:50px;
+  margin: 6vw 6vw;
+  width:50px;
+  border-radius:50%;
+  background:#0505ff9e;
+}
+@keyframes show2
+{
+  from
+  {
+    box-shadow: #2f24d1 0px 0px 18px 2px;
+  }
+  to
+  {
+    box-shadow: #0000ff33 0px 0px 0px 25px;
+  }
+}
+.anim3
+{
+  animation-name: show3;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  height:50px;
+  margin: 6vw 6vw;
+  width:50px;
+  border-radius:50%;
+  background:#ff0000cc;
+}
+@keyframes show3
+{
+  from
+  {
+    box-shadow: red 0px 0px 18px 2px;
+  }
+  to
+  {
+    box-shadow: #ff000047 0px 0px 0px 25px;
+  }
+}
+.anim4
+{
+  animation-name: show4;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  height:50px;
+  margin: 6vw 6vw;
+  width:50px;
+  border-radius:50%;
+  background:#ff1493bf;
+}
+@keyframes show4
+{
+  from
+  {
+    box-shadow: deeppink 0px 0px 18px 2px;
+  }
+  to
+  {
+    box-shadow: #ff149352 0px 0px 0px 25px;
+  }
+}
