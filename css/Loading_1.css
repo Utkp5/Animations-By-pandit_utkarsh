@@ -1,0 +1,34 @@
+*
+{
+  padding:0;
+  margin:0;
+}
+.container
+{
+    height: 21vh;
+    width: 10vw;
+    position: absolute;
+    top: 27vh;
+    left: 41vw;
+    border-radius: 50%;
+    border-top: 20px dotted yellow;
+    border-right: 20px dotted black;
+    border-bottom: 20px dotted blue;
+    border-left: 20px dotted red;
+  animation: loader 2s linear infinite;
+}
+@keyframes loader {
+  0%
+  {
+    transform:rotate(0deg);
+  }
+  50%
+  {
+    transform:rotate(-1turn);
+    
+  }
+  100%
+  {
+    transform:rotate(360deg);
+  }
+}
